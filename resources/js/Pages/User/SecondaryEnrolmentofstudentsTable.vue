@@ -1,0 +1,134 @@
+
+<template>
+  <div>
+    
+<div class="card  card-stretch">
+                                        <div class="card-inner-group">
+                                            <div style="padding: 8px;"></div>  
+                                            <div>
+                                                
+                                             <FilterTable/>
+                                               
+                                            </div><!-- .card-inner -->
+                                            <div style="padding: 10px;"> 
+                                                <h6 class="title nk-block-title" style="padding-top:6px;"> Table of Secondary Enrolment of students by nationality and grade
+</h6>
+                                           
+                                            </div>
+                                           <table class="table">
+  <thead class="thead-light">
+    <tr>
+      
+      <th scope="col">Region  </th>
+      <th scope="col"> Sex
+</th>
+      <th scope="col">Burundians
+</th>
+      <th scope="col">Congolese
+</th>
+      <th scope="col" >Kenyans
+</th>  
+ <th scope="col" >Others
+</th>  
+ <th scope="col" >Rest of Africa
+</th>  
+ <th scope="col" >Rwandese
+</th>  
+ <th scope="col" >Sudanese
+</th>  
+ <th scope="col" >Tanzanians
+</th> 
+<th scope="col" >Ugandans
+</th> 
+<th scope="col" >Grand Total
+</th>      
+    </tr>
+  </thead>
+  <tbody>
+      
+
+
+      
+    <tr>
+     
+       <td>ACHOLI</td>
+      <td>M</td>
+      <td>390</td>
+      <td>2,177</td>
+     <td>2,177</td>
+     <td>55</td>
+    <td>390</td>
+        <td>390</td>
+    <td style="border-bottom: 1px solid #ddd;">2</td>
+    <td style="border-bottom: 1px solid #ddd;">2%</td>
+    <td style="border-bottom: 1px solid #ddd;">2%</td>
+    <td style="border-bottom: 1px solid #ddd;">2%</td>
+    </tr>
+
+    <tr>
+     
+       <td></td>
+      <td>F</td>
+      <td>390</td>
+      <td>2,177</td>
+     <td>2,177</td>
+     <td>55</td>
+    <td>390</td>
+        <td>390</td>
+    <td style="border-bottom: 1px solid #ddd;">2</td>
+    <td style="border-bottom: 1px solid #ddd;">2%</td>
+    <td style="border-bottom: 1px solid #ddd;">2</td>
+    <td style="border-bottom: 1px solid #ddd;">2%</td>
+    </tr>
+
+     <tr>
+     
+       <td style="border-bottom: 1px solid #ddd;"></td>
+      <td style="border-bottom: 1px solid #ddd;">T</td>
+      <td style="border-bottom: 1px solid #ddd;">390</td>
+      <td style="border-bottom: 1px solid #ddd;">2,177</td>
+     <td style="border-bottom: 1px solid #ddd;">2,177</td>
+     <td style="border-bottom: 1px solid #ddd;">55</td>
+    <td style="border-bottom: 1px solid #ddd;">390</td>
+        <td style="border-bottom: 1px solid #ddd;">390</td>
+    <td style="border-bottom: 1px solid #ddd;">2</td>
+    <td style="border-bottom: 1px solid #ddd;">2%</td>
+    <td style="border-bottom: 1px solid #ddd;">2</td>
+    <td style="border-bottom: 1px solid #ddd;">2%</td>
+    </tr>
+   
+
+   
+   
+  </tbody>
+</table>
+                                            <div class="card-inner">
+                                                <ul class="pagination justify-content-center justify-content-md-start">
+                                                    <li class="page-item"><a class="page-link" href="#">Prev</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                    <li class="page-item"><span class="page-link"><em class="icon ni ni-more-h"></em></span></li>
+                                                    <li class="page-item"><a class="page-link" href="#">6</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">7</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                                </ul><!-- .pagination -->
+                                            </div><!-- .card-inner -->
+                                        </div><!-- .card-inner-group -->
+                                    </div>
+      </div>
+</template>
+
+<script>
+import FilterTable from "./FilterTable";
+export default {
+
+components:{
+
+    FilterTable
+}
+
+
+
+
+}
+</script>
